@@ -1,3 +1,4 @@
+package Validator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +16,7 @@ public class PolishIdValidator implements IdValidator {
         int counter = 10;
         for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
             lettersValue.put(alphabet, counter);
+
             counter++;
         }
 
